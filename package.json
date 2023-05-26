@@ -9,7 +9,8 @@
     "test": "ng test",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
-    "compodoc": "npx compodoc -p tsconfig.doc.json"
+    "compodoc": "npx compodoc -p tsconfig.doc.json",
+    "prepare": "husky install"
   },
   "private": true,
   "dependencies": {
