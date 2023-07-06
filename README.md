@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Informations :
+
+Husky🐶 : Supercharge notre DX en lintant, testant ou formatant le code lorsque le code est validé avec git.
+
+ESLint✔️ : Vérifie certains modèles de code pour arrêter les erreurs ou les bogues potentiels.
+
+Lint-Staged🔧 : Lints code avant qu'un commit ne se produise pour garder le code de production propre.
+
+Prettier✨ : Maintient la cohérence du formatage du code en fonction de nos propres préférences.
