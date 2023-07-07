@@ -4,5 +4,5 @@
   ,
     "src/**/*.spec.ts"
   ,
-    "src/app/fileto-exclude.ts"]
+    "src/app/file-to-exclude.ts"]
 }
