@@ -12,6 +12,14 @@
     "compodoc": "npx compodoc -p tsconfig.doc.json",
     "prepare": "husky install"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*": "prettier --write"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^16.0.0",
