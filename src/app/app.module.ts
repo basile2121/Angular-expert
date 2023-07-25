@@ -6,16 +6,18 @@ import { AppComponent } from './app.component';
 import {HttpClientInMemoryWebApiModule} from "angular-in-memory-web-api";
 import {DataService} from "./services/data.service";
 import {HttpClientModule} from "@angular/common/http";
+import {SharedModule} from "./shared/shared.module";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientInMemoryWebApiModule.forRoot(DataService),
-    HttpClientModule
+    HttpClientModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
