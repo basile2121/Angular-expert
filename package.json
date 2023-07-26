@@ -14,6 +14,8 @@
   },
   "private": true,
   "dependencies": {
+    "@angular-eslint/eslint-plugin": "^16.1.0",
+    "@angular-eslint/eslint-plugin-template": "^16.1.0",
     "@angular/animations": "^16.0.0",
     "@angular/common": "^16.0.0",
     "@angular/compiler": "^16.0.0",
@@ -22,6 +24,7 @@
     "@angular/platform-browser": "^16.0.0",
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
+    "@typescript-eslint/parser": "^6.2.0",
     "angular-in-memory-web-api": "^0.16.0",
     "crypto-js": "^4.1.1",
     "rxjs": "~7.8.0",
@@ -34,7 +37,8 @@
     "@angular/compiler-cli": "^16.0.0",
     "@compodoc/compodoc": "^1.1.21",
     "@types/jasmine": "~4.3.0",
-    "eslint": "^8.41.0",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "eslint": "^8.45.0",
     "husky": "^8.0.3",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",
@@ -43,7 +47,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "lint-staged": "^13.2.2",
-    "prettier": "2.8.8",
+    "prettier": "^3.0.0",
     "typescript": "~5.0.2"
   }
 }
