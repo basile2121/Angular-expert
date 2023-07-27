@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Router } from '@angular/router';
-import { Reservation } from 'src/app/shared/domain/models/reservation.model';
+import { Reservation } from 'src/app/shared/domain/reservation.model';
 
 @Component({
   selector: 'app-reservation-list-display',

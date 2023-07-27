@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { ReservationService } from './reservation.service';
-import { Reservation } from 'src/app/shared/domain/models/reservation.model';
+import { Reservation } from 'src/app/shared/domain/reservation.model';
 import { Observable } from 'rxjs';
 
 @Injectable({

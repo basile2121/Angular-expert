@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Reservation } from 'src/app/shared/domain/models/reservation.model';
+import { Reservation } from 'src/app/shared/domain/reservation.model';
 import { ReservationDisplayService } from 'src/app/reservation/application/reservation-display.service';
 import {User} from "../../../../shared/domain/models/user.model";
 

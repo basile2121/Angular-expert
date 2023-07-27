@@ -8,10 +8,10 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent  {
-  title = 'sport-resa';
+  title = 'angular_expert';
   constructor(private authService: AuthService, private router: Router) {}
 
-
+  
   logout(){
     this.authService.logout();
     this.router.navigate(['/auth/login']);

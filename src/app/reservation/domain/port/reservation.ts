@@ -1,4 +1,4 @@
-import { Reservation } from "src/app/shared/domain/models/reservation.model";
+import { Reservation } from "src/app/shared/domain/reservation.model";
 
 export interface IReservationService {
     getAllReservations(): Reservation[];

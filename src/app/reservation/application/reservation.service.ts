@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, BehaviorSubject } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { Reservation } from 'src/app/shared/domain/models/reservation.model';
+import { Reservation } from 'src/app/shared/domain/reservation.model';
 
 @Injectable({
   providedIn: 'root'

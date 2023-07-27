@@ -1,6 +1,6 @@
-# MyApp
+# AngularExpert
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
 
 ## Development server
 
@@ -26,12 +26,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-Informations :
-
-Husky🐶 : Supercharge notre DX en lintant, testant ou formatant le code lorsque le code est validé avec git.
-
-ESLint✔️ : Vérifie certains modèles de code pour arrêter les erreurs ou les bogues potentiels.
-
-Lint-Staged🔧 : Lints code avant qu'un commit ne se produise pour garder le code de production propre.
-
-Prettier✨ : Maintient la cohérence du formatage du code en fonction de nos propres préférences.
+## Lazy Loading
+En utilisant loadchildren() ça nous permet de faire du lazy loading
