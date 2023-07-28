@@ -94,6 +94,17 @@ Dans le cas des CRUD nos composants sont fait de la façon suivante :
 
 ## 8. Mesures des performances
 
-## 9. Problèmes rencontrés
+## 9. Compodoc 
+Project statistics
+- files      : 46
+- module     : 11
+- component  : 14
+- injectable : 7
+- guard      : 1
+- interface  : 12
+- route      : 8
+
+
+## 10. Problèmes rencontrés
 
 ​	Nous n'avons pas pu finir le projet ni même faire la moitié de ce que nous voulions par manque de temps et surtout de difficulté à mettre en place le projet avec les consignes initiales. Nous avons tout de même essayé de respecter au mieux les consignes et l'architecture. Les consignes données à la fin nous ont quand même aidé à mieux comprendre le sujet et ce qu'il fallait mettre en place.
